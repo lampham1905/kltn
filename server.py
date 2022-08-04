@@ -2,7 +2,6 @@
 # Isaac Diaby 090492276
 # This is the server of the project. it will be used to talk to the database and execute SQL
 from server_sql_connection import SqlServerConnection
-
 import socket  # used to run the socket server
 import select  # used to manage cuncurent connections to the server socket
 import pickle  # parser that is used when accept and send any python class
